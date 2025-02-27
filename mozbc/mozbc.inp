@@ -1,0 +1,13 @@
+&control
+
+do_bc     = .true.
+do_ic     = .true.
+domain = /student/home/Burhan/Build_WRF/WRF/test/em_real/namelist.input
+1
+dir_wrf = '/student/home/Burhan/Build_WRF/WRF/test/em_real/'
+dir_moz = '/student/home/Burhan/Build_WRF/mozbc/'
+fn_moz  = 'CT2022_CamChem_Compatible.nc'
+moz_var_suffix  = ''
+
+spc_map = 'co2 -> co2'
+/
