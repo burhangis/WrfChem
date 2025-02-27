@@ -1,0 +1,13 @@
+&CONTROL
+ anthro_dir = '/student/home/Burhan/ANTHRO/src/edgar'
+ wrf_dir   = '/student/home/Burhan/Build_WRF/WRF/test/em_real'
+ src_file_prefix = 'anthropogenic_'
+ src_file_suffix = '_emissions.nc'
+ src_names = 'CO2(44)'
+ sub_categories = 'CO2'
+ cat_var_prefix = ' '
+ serial_output     = .false.
+ start_output_time = '2020-03-15_00:00:00'
+ emissions_zdim_stag = 1
+ emis_map = 'CO2->CO2'
+/
